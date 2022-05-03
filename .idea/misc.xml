@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/10119171UTS-main/app/src/main/res/drawable/borderjam.xml" value="0.2775" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/drawable/ic_baseline_people_alt_24.xml" value="0.192" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/layout/activity_home.xml" value="0.17831813576494426" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/layout/activity_walkthrough.xml" value="0.36666666666666664" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/layout/app_bar_home_screen.xml" value="0.17831813576494426" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/layout/content_home_screen.xml" value="0.17831813576494426" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/layout/fragment_daily.xml" value="0.36666666666666664" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/layout/fragment_gallery.xml" value="0.20833333333333334" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/layout/walkthrough_screen.xml" value="0.1" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/menu/activity_home_drawer.xml" value="0.2857142857142857" />
+        <entry key="..\:/10119171UTS-main/app/src/main/res/menu/home_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171UTS/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171UTS/app/src/main/res/layout/activity_splash.xml" value="0.14907407407407408" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171UTS/app/src/main/res/layout/activity_walkthrough.xml" value="0.264" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171UTS/app/src/main/res/layout/content_home_screen.xml" value="0.14907407407407408" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171UTS/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171UTS/app/src/main/res/layout/nav_header_home_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171UTS/app/src/main/res/layout/walkthrough_screen.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

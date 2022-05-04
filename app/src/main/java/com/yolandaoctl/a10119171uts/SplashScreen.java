@@ -9,6 +9,8 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
+//Yolanda Octaviane 10119171 IF5 Rabu 27 April 2022
+
 public class SplashScreen extends AppCompatActivity {
 
     //deklarasi

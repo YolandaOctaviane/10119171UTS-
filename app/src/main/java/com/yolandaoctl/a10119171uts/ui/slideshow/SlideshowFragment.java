@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import com.yolandaoctl.a10119171uts.databinding.FragmentSlideshowBinding;
 
+//Yolanda Octaviane 10119171 IF5 Jumat 29 April 2022
 public class SlideshowFragment extends Fragment {
 
 private FragmentSlideshowBinding binding;

@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+
+//Yolanda Octaviane 10119171 IF5 Jumat 29 April 2022
 public class WalkthroughScreen extends AppCompatActivity {
 
     private ViewPager mSlideViewPager;
@@ -30,7 +32,7 @@ public class WalkthroughScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_walkthrough);
 
-        mFinishBtn = (Button) findViewById(R.id.finishBtn);
+        mFinishBtn = (Button) findViewById(R.id.startBtn);
         mNextBtn = (Button) findViewById(R.id.nextBtn);
         mBackBtn = (Button) findViewById(R.id.backBtn);
 
@@ -121,7 +123,7 @@ public class WalkthroughScreen extends AppCompatActivity {
 
                 mNextBtn.setText("");
                 mBackBtn.setText("Back");
-                mFinishBtn.setText("Finish");
+                mFinishBtn.setText("Start");
 
             } else {
                 mFinishBtn.setEnabled(false);

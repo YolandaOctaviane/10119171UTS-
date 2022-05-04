@@ -30,4 +30,9 @@
     <string name="title_notifications">Notifications</string>
     <string name="Hobby">Gaming, Watching Movie, Playing Piano</string>
     <string name="menu_daily">Daily Activity</string>
+
+
+
+    <string name="title_activity">Daily Activity</string>
+    <string name="title_friends">My Friends</string>
 </resources>

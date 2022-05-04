@@ -9,12 +9,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bghome5">
+        android:background="@color/Black87">
+
         <LinearLayout
+            android:id="@+id/judul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/text_home"
                 android:layout_width="match_parent"
@@ -25,14 +28,15 @@
                 android:layout_marginEnd="8dp"
                 android:text="@string/profile"
                 android:textAlignment="center"
-                android:textSize="20sp"
-                android:textColor="@color/black"
                 android:textAllCaps="true"
+                android:textColor="@color/Silversand"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
 
             <TextView
                 android:id="@+id/text_profile"
@@ -44,8 +48,8 @@
                 android:layout_marginEnd="8dp"
                 android:text="@string/nama"
                 android:textAlignment="center"
+                android:textColor="@color/Silversand"
                 android:textSize="18sp"
-                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -65,14 +69,12 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-
                 <ImageView
-                    android:layout_width="46dp"
-                    android:layout_height="43dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginTop="15dp"
-                    android:background="@drawable/ic_baseline_people_alt_24"
+                    android:background="@drawable/ic_baseline_person_24"
                     android:textAlignment="center" />
-
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -82,18 +84,20 @@
                     android:layout_marginRight="50dp"
                     android:text="@string/nama_desc"
                     android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:background="@drawable/borderjam"/>
+                    android:textColor="@color/Silversand" />
 
                 <LinearLayout
                     android:layout_width="282dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:background="@drawable/borderjam"
-
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/borderjam">
 
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_baseline_catching_pokemon_24"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -103,7 +107,7 @@
                         android:text="Interest"
                         android:textAlignment="center"
                         android:textAllCaps="true"
-                        android:textColor="@color/black"
+                        android:textColor="@color/brown3"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -119,7 +123,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Hobby    : "
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="16sp" />
 
                         <TextView
@@ -128,7 +132,7 @@
                             android:layout_gravity="fill_horizontal"
                             android:layout_marginLeft="5dp"
                             android:text="@string/Hobby"
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -144,7 +148,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Makes   : "
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="16sp" />
 
                         <TextView
@@ -153,7 +157,7 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="7dp"
                             android:text="All kinds of noodles "
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -169,7 +173,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Mikes    : "
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="16sp" />
 
                         <TextView
@@ -178,7 +182,7 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="5dp"
                             android:text="Kweni mango juice and Dragon fruit juice"
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -194,7 +198,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Interest : "
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="16sp" />
 
                         <TextView
@@ -203,7 +207,7 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="5dp"
                             android:text="Game Development"
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -211,8 +215,8 @@
                         android:layout_width="267dp"
                         android:layout_height="37dp"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginBottom="50dp"
                         android:layout_marginTop="5sp"
+                        android:layout_marginBottom="50dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -220,7 +224,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Future Goals"
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="16sp" />
 
                         <TextView
@@ -229,7 +233,7 @@
                             android:layout_marginTop="5dp"
                             android:text=":"
                             android:textAlignment="center"
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="16sp" />
 
                         <TextView
@@ -239,7 +243,7 @@
                             android:layout_marginTop="3dp"
 
                             android:text="Game Development"
-                            android:textColor="@color/black"
+                            android:textColor="@color/brown3"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>

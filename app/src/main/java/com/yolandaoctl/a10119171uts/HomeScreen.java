@@ -13,6 +13,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import com.yolandaoctl.a10119171uts.databinding.ActivityHomeBinding;
 
+
+//Yolanda Octaviane 10119171 IF5 Jumat 29 April 2022
 public class HomeScreen extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;

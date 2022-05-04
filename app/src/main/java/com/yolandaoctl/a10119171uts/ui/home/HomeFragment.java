@@ -12,6 +12,8 @@ import androidx.lifecycle.ViewModelProvider;
 import com.yolandaoctl.a10119171uts.R;
 import com.yolandaoctl.a10119171uts.databinding.FragmentHomeBinding;
 
+
+//Yolanda Octaviane 10119171 IF5 Sabtu 30 April 2022
 public class HomeFragment extends Fragment {
 
 

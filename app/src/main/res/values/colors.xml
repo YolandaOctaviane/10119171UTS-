@@ -17,5 +17,20 @@
     <color name="blue">#00a1db</color>
     <color name="blue2">#074f70</color>
     <color name="blackash">#141414</color>
+    <color name="Silversand">#BDC3C7</color>
+    <color name="Porcelain">#ECF0F1</color>
+    <color name="Kournikova">#fad859</color>
+    <color name="blackbrown">#290001</color>
+    <color name="brown">#87431D</color>
+    <color name="brown2">#C87941</color>
+    <color name="brown3">#DBCBBD</color>
+
+    <color name="WhiteE">#EEEEEE</color>
+    <color name="WhiteFour">#dedede</color>
+    <color name="Gunmetal">#525b60</color>
+    <color name="SunYellow">#ffe41e</color>
+    <color name="Sunflower">#ffc50d</color>
+    <color name="Black87">#de000000</color>
+    
 
 </resources>

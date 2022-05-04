@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+//Yolanda Octaviane 10119171 IF5 Jumat 29 April 2022
 public class SlideAdapter extends PagerAdapter {
 
     Context context;
@@ -35,9 +36,9 @@ public class SlideAdapter extends PagerAdapter {
     };
 
     public String[] slide_desc = {
-            "Welcome to Viane Apps, You will know about me more and maybe we can get closer",
-            "This application contains the personal data of a Yolanda Octaviane. This application is also to fulfill mobile computing application course assignments",
-            "Click the get started button to enter Viane Apps"
+            "Welcome to Viane Apps",
+            "This application contains the personal data of a Yolanda Octaviane",
+            "Click Start button to enter Viane Apps"
     };
 
 

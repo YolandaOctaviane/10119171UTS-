@@ -16,9 +16,12 @@
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/content_home_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/daily_screen.xml" value="0.20833333333333334" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_daily.xml" value="0.2" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_favorite.xml" value="0.2513586956521739" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_gallery.xml" value="0.2513586956521739" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_daily.xml" value="0.16" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_friendlist.xml" value="0.1" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_gallery.xml" value="0.2513586956521739" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/nav_header_home_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/walkthrough_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/10119171UTS-main/app/src/main/res/drawable/borderjam.xml" value="0.2775" />

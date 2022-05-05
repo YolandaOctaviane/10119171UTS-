@@ -50,17 +50,17 @@ public class DailyFragment extends Fragment {
 
         friendlistModel = new ArrayList<>();
 
-        FriendlistModel friendlist1 = new FriendlistModel(R.drawable.foto_yolan, "Putih");
+        FriendlistModel friendlist1 = new FriendlistModel(R.drawable.foto_putih, "Putih");
         friendlistModel.add(friendlist1);
-        FriendlistModel friendlist2 = new FriendlistModel(R.drawable.foto_yolan, "Melinda");
+        FriendlistModel friendlist2 = new FriendlistModel(R.drawable.foto_melinda, "Melinda");
         friendlistModel.add(friendlist2);
-        FriendlistModel friendlist3 = new FriendlistModel(R.drawable.foto_yolan, "Sevira");
+        FriendlistModel friendlist3 = new FriendlistModel(R.drawable.foto_sevira, "Sevira");
         friendlistModel.add(friendlist3);
-        FriendlistModel friendlist4 = new FriendlistModel(R.drawable.foto_yolan, "Syifa");
+        FriendlistModel friendlist4 = new FriendlistModel(R.drawable.foto_afifah, "Afifah");
         friendlistModel.add(friendlist4);
-        FriendlistModel friendlist5 = new FriendlistModel(R.drawable.foto_yolan, "Rika");
+        FriendlistModel friendlist5 = new FriendlistModel(R.drawable.foto_rika, "Rika");
         friendlistModel.add(friendlist5);
-        FriendlistModel friendlist6 = new FriendlistModel(R.drawable.foto_yolan, "Ghea");
+        FriendlistModel friendlist6 = new FriendlistModel(R.drawable.foto_ghea, "Ghea");
         friendlistModel.add(friendlist6);
 
         recyclerViewFriendlist.setAdapter(new FriendlistAdapter(friendlistModel));

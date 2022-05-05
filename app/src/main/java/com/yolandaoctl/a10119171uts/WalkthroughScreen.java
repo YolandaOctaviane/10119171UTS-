@@ -87,7 +87,7 @@ public class WalkthroughScreen extends AppCompatActivity {
         }
         if ((mDots.length > 0)){
 
-            mDots[position].setTextColor(getResources().getColor(R.color.white));
+            mDots[position].setTextColor(getResources().getColor(R.color.Kournikova));
         }
     }
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="100dp"
-    android:layout_height="120dp"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:elevation="1dp"
     app:cardCornerRadius="10dp"
@@ -12,10 +12,11 @@
         android:layout_height="match_parent"
         android:background="@color/blackash"
         android:padding="10dp">
+
         <ImageView
             android:id="@+id/iv_friendlist"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:src="@mipmap/ic_launcher" />

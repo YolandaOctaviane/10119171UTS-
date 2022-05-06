@@ -21,17 +21,18 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="5dp"
                 android:orientation="vertical">
+
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="116dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="4dp"
-                    android:layout_marginRight="170dp"
-                    android:layout_marginLeft="170dp"
-                    android:text="music"
-                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Music"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/nunito_bold" />
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recview_music"
@@ -47,38 +48,42 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_weight="1"
-        android:background="@color/Black87"
         android:elevation="0dp">
+
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="218dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="5dp"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="170dp"
-                    android:layout_marginRight="170dp"
-                    android:text="video"
-                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Video"
+                    android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/nunito_bold" />
+                    android:textSize="20sp" />
+
                 <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
-                    android:layout_marginEnd="14dp"
-                    android:layout_marginTop="5dp">
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="14dp">
+
                     <VideoView
                         android:id="@+id/vv_video"
                         android:layout_width="match_parent"
                         android:layout_height="180dp"
-                        android:layout_gravity="center_horizontal"/>
+                        android:layout_gravity="center_horizontal" />
                 </FrameLayout>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>

@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ui.home.HomeFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/Black87">
+        android:background="@color/Black87"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
 
         <LinearLayout
             android:id="@+id/judul"
@@ -18,26 +21,43 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_home"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="38dp"
-                android:layout_marginEnd="8dp"
-                android:text="@string/profile"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textColor="@color/Silversand"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_person_24" />
 
 
+                <TextView
+                    android:id="@+id/text_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:text="@string/profile"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/Silversand"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
             <TextView
                 android:id="@+id/text_profile"
                 android:layout_width="match_parent"
@@ -59,22 +79,35 @@
                 android:id="@+id/foto_profilr"
                 android:layout_width="wrap_content"
                 android:layout_height="205dp"
+                android:layout_marginBottom="30dp"
                 android:layout_marginLeft="70dp"
                 android:layout_marginRight="70dp"
-                android:src="@drawable/foto_yolan" />
+                android:src="@drawable/foto_yolan"/>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="15dp"
-                    android:background="@drawable/ic_baseline_person_24"
-                    android:textAlignment="center" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="About Me"
+                    android:textColor="@color/Silversand"
+                    android:layout_gravity="start"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/border2"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -82,34 +115,49 @@
                     android:layout_marginLeft="50dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="50dp"
+                    android:layout_marginBottom="10dp"
                     android:text="@string/nama_desc"
-                    android:textAlignment="center"
-                    android:textColor="@color/Silversand" />
+                    android:textColor="@color/Silversand"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/Kournikova" />
 
                 <LinearLayout
                     android:layout_width="282dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    android:background="@drawable/borderjam">
+                    android:orientation="vertical">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_baseline_catching_pokemon_24"/>
-                    <TextView
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="50dp"
-                        android:layout_marginTop="30dp"
-                        android:layout_marginRight="50dp"
-                        android:text="Interest"
-                        android:textAlignment="center"
-                        android:textAllCaps="true"
-                        android:textColor="@color/brown3"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_baseline_catching_pokemon_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Interest"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/Silversand"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -123,7 +171,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Hobby    : "
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Kournikova"
                             android:textSize="16sp" />
 
                         <TextView
@@ -132,7 +180,7 @@
                             android:layout_gravity="fill_horizontal"
                             android:layout_marginLeft="5dp"
                             android:text="@string/Hobby"
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Silversand"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -148,7 +196,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Makes   : "
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Kournikova"
                             android:textSize="16sp" />
 
                         <TextView
@@ -157,7 +205,7 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="7dp"
                             android:text="All kinds of noodles "
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Silversand"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -173,7 +221,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Mikes    : "
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Kournikova"
                             android:textSize="16sp" />
 
                         <TextView
@@ -181,8 +229,8 @@
                             android:layout_height="31dp"
                             android:layout_gravity="center"
                             android:layout_marginLeft="5dp"
-                            android:text="Kweni mango juice and Dragon fruit juice"
-                            android:textColor="@color/brown3"
+                            android:text="Dragon fruit juice"
+                            android:textColor="@color/Silversand"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -198,7 +246,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Interest : "
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Kournikova"
                             android:textSize="16sp" />
 
                         <TextView
@@ -207,7 +255,7 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="5dp"
                             android:text="Game Development"
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Silversand"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -216,34 +264,33 @@
                         android:layout_height="37dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="5sp"
-                        android:layout_marginBottom="50dp"
+                        android:layout_marginBottom="30dp"
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="49dp"
+                            android:layout_width="52dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="fill_horizontal"
                             android:text="Future Goals"
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Kournikova"
                             android:textSize="16sp" />
 
                         <TextView
-                            android:layout_width="18dp"
+                            android:layout_width="16dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:text=":"
                             android:textAlignment="center"
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Kournikova"
                             android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="193dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="2dp"
                             android:layout_marginTop="3dp"
-
                             android:text="Game Development"
-                            android:textColor="@color/brown3"
+                            android:textColor="@color/Silversand"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>

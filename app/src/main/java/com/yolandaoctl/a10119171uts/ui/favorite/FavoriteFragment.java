@@ -1,5 +1,7 @@
 package com.yolandaoctl.a10119171uts.ui.favorite;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -7,10 +9,13 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.MediaController;
+import android.widget.TextView;
 import android.widget.VideoView;
 
 import com.yolandaoctl.a10119171uts.R;
@@ -57,7 +62,7 @@ public class FavoriteFragment extends Fragment {
 
         recyclerViewMusic.setAdapter(new FavoriteAdapter(favoriteModel));
 
-        // video
+
         VideoView vvVideo = root.findViewById(R.id.vv_video);
         String videoPath = "android.resource://" + getContext().getPackageName() + "/" + R.raw.bubbleftutaeve;
         Uri uri = Uri.parse(videoPath);
@@ -67,6 +72,7 @@ public class FavoriteFragment extends Fragment {
         vvVideo.setMediaController(mediaController);
         mediaController.setAnchorView(vvVideo);
 
-        return root;
+
+            return root;
     }
 }

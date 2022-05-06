@@ -3,11 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/border2.xml" value="0.1885" />
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/borderjam.xml" value="0.1625" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_activity.xml" value="0.1885" />
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_baseline_catching_pokemon_24.xml" value="0.1625" />
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_baseline_emoji_people_24.xml" value="0.1625" />
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_baseline_people_alt_24.xml" value="0.1625" />
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1625" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_college.xml" value="0.2115" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_favorite.xml" value="0.1885" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_games.xml" value="0.2115" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_home.xml" value="0.1885" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_info.xml" value="0.148" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_phone.xml" value="0.148" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_sleep.xml" value="0.2115" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_study.xml" value="0.2115" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_tv.xml" value="0.2115" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_wakeup.xml" value="0.2115" />
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/side_nav_bar.xml" value="0.1625" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
@@ -16,15 +28,18 @@
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/content_home_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/daily_screen.xml" value="0.20833333333333334" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_daily.xml" value="0.2" />
-        <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_favorite.xml" value="0.2513586956521739" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_favorite.xml" value="0.2" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_gallery.xml" value="0.2513586956521739" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_daily.xml" value="0.16" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_favorite.xml" value="0.2513586956521739" />
-        <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_friendlist.xml" value="0.1" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_friendlist.xml" value="0.264" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_gallery.xml" value="0.2513586956521739" />
-        <entry key="..\:/10119171UTS-/app/src/main/res/layout/nav_header_home_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/nav_header_home_screen.xml" value="0.264" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/walkthrough_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/menu/activity_home_drawer.xml" value="0.4" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/menu/home_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/10119171UTS-main/app/src/main/res/drawable/borderjam.xml" value="0.2775" />
         <entry key="..\:/10119171UTS-main/app/src/main/res/drawable/ic_baseline_people_alt_24.xml" value="0.192" />
         <entry key="..\:/10119171UTS-main/app/src/main/res/layout/activity_home.xml" value="0.17831813576494426" />

@@ -19,18 +19,19 @@
         android:layout_height="93dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/foto_yolan" />
+        app:srcCompat="@drawable/yolandaa" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="@string/nama"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:textColor="@color/Kournikova" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="10119171"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:textColor="@color/Kournikova"/>
 </LinearLayout>

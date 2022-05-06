@@ -30,9 +30,9 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.myview
 
     @Override
     public void onBindViewHolder(@NonNull myviewholder holder, int position) {
-        holder.ivMusic.setImageResource(musicModel.get(position).getImage());
-        holder.tvTitle.setText(musicModel.get(position).getTitle());
-        holder.tvPenyanyi.setText(musicModel.get(position).getPenyanyi());
+        holder.logoMusic.setImageResource(musicModel.get(position).getImage());
+        holder.titleFavorite.setText(musicModel.get(position).getTitle());
+        holder.singerFavorite.setText(musicModel.get(position).getPenyanyi());
     }
 
     @Override
@@ -41,14 +41,14 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.myview
     }
 
     class myviewholder extends RecyclerView.ViewHolder {
-        ImageView ivMusic;
-        TextView tvTitle, tvPenyanyi;
+        ImageView logoMusic;
+        TextView titleFavorite, singerFavorite;
 
         public myviewholder(@NonNull View itemView) {
             super(itemView);
-            ivMusic = itemView.findViewById(R.id.iv_music);
-            tvTitle = itemView.findViewById(R.id.tv_title);
-            tvPenyanyi = itemView.findViewById(R.id.tv_penyanyi);
+            logoMusic = itemView.findViewById(R.id.logo_music);
+            titleFavorite = itemView.findViewById(R.id.title_favorite);
+            singerFavorite = itemView.findViewById(R.id.singer_favorite);
         }
     }
 }

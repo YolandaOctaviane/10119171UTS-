@@ -14,7 +14,7 @@
         android:padding="10dp"
         android:background="@color/blackash">
         <ImageView
-            android:id="@+id/iv_music"
+            android:id="@+id/logo_music"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="10dp"
@@ -22,23 +22,23 @@
             android:src="@mipmap/ic_launcher" />
 
         <TextView
-            android:id="@+id/tv_title"
+            android:id="@+id/title_favorite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
-            android:layout_toRightOf="@+id/iv_music"
+            android:layout_toRightOf="@+id/logo_music"
             android:fontFamily="@font/nunito_bold"
             android:text="Title"
             android:textColor="@color/WhiteFour"
             android:textSize="14sp" />
         <TextView
-            android:id="@+id/tv_penyanyi"
+            android:id="@+id/singer_favorite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tv_title"
+            android:layout_below="@+id/title_favorite"
             android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@+id/iv_music"
+            android:layout_toRightOf="@+id/logo_music"
             android:fontFamily="@font/rubik_regular"
             android:text="Penyanyi"
             android:textColor="@color/WhiteFour"

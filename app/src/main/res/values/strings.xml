@@ -20,8 +20,7 @@
     <string name="NIM">10119171</string>
     <string name="profile">Profile</string>
 
-
-    <string name="nama_desc">My name is Yolanda Octaviane, I was born in Bandung, 15 October 2000. I am an informatics engineering student at UNIKOM. I have an interest in game development as a UI artist and Quality Assurance</string>
+    <string name="nama_desc">My name is Yolanda Octaviane, I was born in Bandung, 15 October 2000. I am an informatics engineering student at UNIKOM. I have an interest in game development as UI artist and Quality Assurance</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Favorite">menu_favorite</string>
     <string name="title_activity_bottom_about">BottomAbout</string>

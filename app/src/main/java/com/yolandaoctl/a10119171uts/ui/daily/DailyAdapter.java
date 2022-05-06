@@ -31,9 +31,9 @@ public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.myviewholder
 
     @Override
     public void onBindViewHolder(@NonNull myviewholder holder, int position) {
-        holder.ivDaily.setImageResource(dailyModel.get(position).getImage());
-        holder.tvTitle.setText(dailyModel.get(position).getTitle());
-        holder.tvDesc.setText(dailyModel.get(position).getDesc());
+        holder.logoDaily.setImageResource(dailyModel.get(position).getImage());
+        holder.titleDaily.setText(dailyModel.get(position).getTitle());
+        holder.descDaily.setText(dailyModel.get(position).getDesc());
     }
 
     @Override
@@ -42,14 +42,14 @@ public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.myviewholder
     }
 
     class myviewholder extends RecyclerView.ViewHolder {
-        ImageView ivDaily;
-        TextView tvTitle, tvDesc;
+        ImageView logoDaily;
+        TextView titleDaily, descDaily;
 
         public myviewholder(@NonNull View itemView) {
             super(itemView);
-            ivDaily = itemView.findViewById(R.id.iv_daily);
-            tvTitle = itemView.findViewById(R.id.tv_title);
-            tvDesc = itemView.findViewById(R.id.tv_desc);
+            logoDaily = itemView.findViewById(R.id.logo_daily);
+            titleDaily = itemView.findViewById(R.id.title_daily);
+            descDaily = itemView.findViewById(R.id.desc_daily);
         }
     }
 }

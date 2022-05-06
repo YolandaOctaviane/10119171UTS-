@@ -32,17 +32,17 @@ public class GalleryFragment extends Fragment {
 
         galleryModel = new ArrayList<>();
 
-        GalleryModel gallery1 = new GalleryModel(R.drawable.logo1);
+        GalleryModel gallery1 = new GalleryModel(R.drawable.iu);
         galleryModel.add(gallery1);
-        GalleryModel gallery2 = new GalleryModel(R.drawable.logo2);
+        GalleryModel gallery2 = new GalleryModel(R.drawable.iu2);
         galleryModel.add(gallery2);
-        GalleryModel gallery3 = new GalleryModel(R.drawable.logo3);
+        GalleryModel gallery3 = new GalleryModel(R.drawable.iu3);
         galleryModel.add(gallery3);
-        GalleryModel gallery4 = new GalleryModel(R.drawable.logo1);
+        GalleryModel gallery4 = new GalleryModel(R.drawable.sunghoon);
         galleryModel.add(gallery4);
-        GalleryModel gallery5 = new GalleryModel(R.drawable.logo2);
+        GalleryModel gallery5 = new GalleryModel(R.drawable.sunghoon2);
         galleryModel.add(gallery5);
-        GalleryModel gallery6 = new GalleryModel(R.drawable.logo3);
+        GalleryModel gallery6 = new GalleryModel(R.drawable.sunghoon3);
         galleryModel.add(gallery6);
 
         recyclerViewGallery.setAdapter(new GalleryAdapter(galleryModel));

@@ -19,9 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="42dp"
-            android:layout_marginRight="42dp"
-            android:background="@drawable/border1"
+            android:background="@color/Silversand"
             android:orientation="vertical">
 
             <ImageView
@@ -38,7 +36,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/nunito_bold"
                 android:text="Yolanda Octaviane"
-                android:textColor="@color/Silversand"
+                android:textColor="@color/Gunmetal"
                 android:textSize="24sp" />
         </LinearLayout>
     </RelativeLayout>
@@ -78,7 +76,9 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center"
                         android:text="About Me"
+                        android:textSize="16sp"
                         android:textColor="@color/white" />
+
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -89,7 +89,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="137dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/border2"
@@ -97,8 +97,8 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:layout_width="200dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="213dp"
+                            android:layout_height="126dp"
                             android:layout_marginLeft="50dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="50dp"
@@ -120,7 +120,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="fill_horizontal"
                         android:text="Hobby    : "
-                        android:textColor="@color/Kournikova"
+                        android:textColor="@color/Silversand"
                         android:textSize="16sp" />
 
                     <TextView
@@ -145,7 +145,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="fill_horizontal"
                         android:text="Makes   : "
-                        android:textColor="@color/Kournikova"
+                        android:textColor="@color/Silversand"
                         android:textSize="16sp" />
 
                     <TextView
@@ -170,14 +170,14 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="fill_horizontal"
                         android:text="Mikes    : "
-                        android:textColor="@color/Kournikova"
+                        android:textColor="@color/Silversand"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="197dp"
                         android:layout_height="31dp"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="8dp"
                         android:text="Dragon fruit juice"
                         android:textColor="@color/Silversand"
                         android:textSize="12sp" />
@@ -195,14 +195,14 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="fill_horizontal"
                         android:text="Interest : "
-                        android:textColor="@color/Kournikova"
+                        android:textColor="@color/Silversand"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="197dp"
                         android:layout_height="31dp"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="8dp"
                         android:text="Game Development"
                         android:textColor="@color/Silversand"
                         android:textSize="12sp" />
@@ -220,7 +220,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="fill_horizontal"
                         android:text="Future Goals"
-                        android:textColor="@color/Kournikova"
+                        android:textColor="@color/Silversand"
                         android:textSize="16sp" />
 
                     <TextView
@@ -229,13 +229,13 @@
                         android:layout_marginTop="5dp"
                         android:text=":"
                         android:textAlignment="center"
-                        android:textColor="@color/Kournikova"
+                        android:textColor="@color/Silversand"
                         android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="193dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="2dp"
+                        android:layout_marginLeft="6dp"
                         android:layout_marginTop="3dp"
                         android:text="Game Development"
                         android:textColor="@color/Silversand"
@@ -278,7 +278,7 @@
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/logo1" />
+                            android:src="@drawable/logo_insta" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -291,7 +291,7 @@
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/logo2" />
+                            android:src="@drawable/logo_wa" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -304,7 +304,7 @@
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/logo3" />
+                            android:src="@drawable/logo_tele" />
                     </LinearLayout>
                 </LinearLayout>
                 <!--sosmed baris 2-->
@@ -325,7 +325,20 @@
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/logo1" />
+                            android:src="@drawable/logo_gmail" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/github"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/logo_git" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -338,21 +351,9 @@
                             android:layout_width="100dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/logo2" />
+                            android:src="@drawable/logo_linked" />
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1">
-
-                        <ImageView
-                            android:id="@+id/maps"
-                            android:layout_width="100dp"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/logo3" />
-                    </LinearLayout>
                 </LinearLayout>
 
                 <View
@@ -362,6 +363,37 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="15dp"
                     android:background="@color/Kournikova" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/nunito_bold"
+                        android:gravity="center"
+                        android:text="Find Me"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@color/Kournikova" />
+
+                    <ImageView
+                        android:id="@+id/maps"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/logo_maps" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/phone"
@@ -375,6 +407,7 @@
                     android:text="087832654450"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
+
 
                 <TextView
                     android:id="@+id/about"

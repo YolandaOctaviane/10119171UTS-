@@ -27,7 +27,7 @@
         android:textAllCaps="true"
         android:textColor="#E4FFFFFF"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:fontFamily="@font/nunito_bold"/>
 
     <TextView
         android:id="@+id/desc"
@@ -43,6 +43,6 @@
         android:textAlignment="center"
         android:textColor="#B9FFFFFF"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:fontFamily="@font/nunito_bold" />
 
 </RelativeLayout>

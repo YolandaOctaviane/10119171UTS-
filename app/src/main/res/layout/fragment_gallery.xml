@@ -10,7 +10,6 @@
     android:background="@color/Black87"
     tools:context=".ui.gallery.GalleryFragment" >
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/view_gallery"
         android:layout_width="match_parent"

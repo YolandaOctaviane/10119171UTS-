@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
+//Yolanda Octaviane 10119171 IF5 Jumat 6 Mei 2022
 public class AboutDialog extends DialogFragment {
     @Nullable
     @Override

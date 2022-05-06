@@ -20,7 +20,7 @@ import com.yolandaoctl.a10119171uts.R;
 //Yolanda Octaviane 10119171 IF5 Jumat 6 Mei 2022
 public class ProfileFragment extends Fragment {
 
-    ImageView Instagram, Whatsapp, Telegram, Gmail, Linkedin, Maps;
+    ImageView Instagram, Whatsapp, Telegram, Gmail, Github, Linkedin, Maps;
     TextView  Abouts;
 
     @Override
@@ -33,6 +33,7 @@ public class ProfileFragment extends Fragment {
         Whatsapp = root.findViewById(R.id.whatsapp);
         Telegram = root.findViewById(R.id.telegram);
         Gmail = root.findViewById(R.id.gmail);
+        Github = root.findViewById(R.id.github);
         Linkedin = root.findViewById(R.id.linkedin);
         Maps = root.findViewById(R.id.maps);
         Abouts = root.findViewById(R.id.about);
@@ -78,6 +79,18 @@ public class ProfileFragment extends Fragment {
                 gmail.addCategory(Intent.CATEGORY_BROWSABLE);
                 gmail.setData(Uri.parse("mailto:yolandaoctavi@gmail.com"));
                 startActivity(gmail);
+            }
+        });
+
+
+        Github.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent github = new Intent();
+                github.setAction(Intent.ACTION_VIEW);
+                github.addCategory(Intent.CATEGORY_BROWSABLE);
+                github.setData(Uri.parse("https://github.com/YolandaOctaviane"));
+                startActivity(github);
             }
         });
 

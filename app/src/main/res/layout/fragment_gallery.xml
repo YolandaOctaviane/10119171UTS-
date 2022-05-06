@@ -15,6 +15,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="4dp"
         android:layout_marginLeft="5dp"
+        android:gravity="center"
         android:text="My Gallery"
         android:textSize="20sp"
         android:textColor="@color/white"
@@ -23,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recview_gallery"
+        android:id="@+id/view_gallery"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="4dp"

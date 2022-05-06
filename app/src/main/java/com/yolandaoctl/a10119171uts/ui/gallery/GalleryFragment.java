@@ -16,21 +16,21 @@ import com.yolandaoctl.a10119171uts.databinding.FragmentGalleryBinding;
 
 import java.util.ArrayList;
 
+//Yolanda Octaviane 10119171 IF5 Kamis 5 Mei 2022
 public class GalleryFragment extends Fragment {
 
-    // views gallery
+
     RecyclerView recyclerViewGallery;
     ArrayList<GalleryModel> galleryModel;
-    private StaggeredGridLayoutManager manager; // image staggred
+    private StaggeredGridLayoutManager manager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View root =inflater.inflate(R.layout.fragment_gallery, container, false);
 
-        // gallery
-        recyclerViewGallery = root.findViewById(R.id.recview_gallery);
+        recyclerViewGallery = root.findViewById(R.id.view_gallery);
         manager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL); // image staggred set vertical
         recyclerViewGallery.setLayoutManager(manager);
 
@@ -48,7 +48,6 @@ public class GalleryFragment extends Fragment {
         galleryModel.add(gallery5);
         GalleryModel gallery6 = new GalleryModel(R.drawable.logo3);
         galleryModel.add(gallery6);
-
 
         recyclerViewGallery.setAdapter(new GalleryAdapter(galleryModel));
 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Black87"
+    android:padding="50dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/splash_image"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Viane Apps"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/Kournikova" />
+
+        <TextView
+            android:id="@+id/appdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="
+This application was made to fulfill the midterm exam for mobile computing application courses"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/Silversand" />
+
+        <TextView
+            android:id="@+id/appversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="Versi 1.0"
+            android:textSize="12sp"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/Silversand" />
+    </LinearLayout>
+
+</RelativeLayout>

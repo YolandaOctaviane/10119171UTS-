@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="150dp"
-    android:layout_height="150dp"
+    android:layout_width="180dp"
+    android:layout_height="180dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:elevation="1dp"
     app:cardCornerRadius="10dp"
@@ -15,23 +15,24 @@
 
         <ImageView
             android:id="@+id/iv_friendlist"
-            android:layout_width="84dp"
-            android:layout_height="wrap_content"
+            android:layout_width="102dp"
+            android:layout_height="107dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:src="@mipmap/ic_launcher" />
+
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_friendlist"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp"
-            android:text="Title"
-            android:textSize="14sp"
-            android:gravity="center"
-            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/nunito_bold"
-            android:layout_below="@+id/iv_friendlist" />
+            android:gravity="center"
+            android:text="Title"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

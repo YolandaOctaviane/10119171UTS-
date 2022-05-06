@@ -1,5 +1,7 @@
 package com.yolandaoctl.a10119171uts.ui.gallery;
 
+
+//Yolanda Octaviane 10119171 IF5 Kamis 5 Mei 2022
 public class GalleryModel {
 
     int image;

@@ -21,6 +21,7 @@
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_tv.xml" value="0.2115" />
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/ic_wakeup.xml" value="0.2115" />
         <entry key="..\:/10119171UTS-/app/src/main/res/drawable/side_nav_bar.xml" value="0.1625" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/about.xml" value="0.25416666666666665" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/activity_walkthrough.xml" value="0.2" />
@@ -34,7 +35,7 @@
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_daily.xml" value="0.16" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_favorite.xml" value="0.2513586956521739" />
-        <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_friendlist.xml" value="0.264" />
+        <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_friendlist.xml" value="0.4" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/item_gallery.xml" value="0.2513586956521739" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/nav_header_home_screen.xml" value="0.264" />
         <entry key="..\:/10119171UTS-/app/src/main/res/layout/walkthrough_screen.xml" value="0.25416666666666665" />

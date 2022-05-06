@@ -18,7 +18,7 @@ import com.yolandaoctl.a10119171uts.databinding.ActivityHomeBinding;
 public class HomeScreen extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-private ActivityHomeBinding binding;
+    private ActivityHomeBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

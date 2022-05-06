@@ -32,7 +32,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.myviewho
 
     @Override
     public void onBindViewHolder(@NonNull myviewholder holder, int position) {
-        holder.ivGallery.setImageResource(galleryModel.get(position).getImage());
+        holder.logoGallery.setImageResource(galleryModel.get(position).getImage());
     }
 
     @Override
@@ -41,11 +41,11 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.myviewho
     }
 
     class myviewholder extends RecyclerView.ViewHolder {
-        ImageView ivGallery;
+        ImageView logoGallery;
 
         public myviewholder(@NonNull View itemView) {
             super(itemView);
-            ivGallery = itemView.findViewById(R.id.iv_gallery);
+            logoGallery = itemView.findViewById(R.id.logo_gallery);
         }
     }
 }

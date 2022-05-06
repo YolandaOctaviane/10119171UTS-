@@ -13,13 +13,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.yolandaoctl.a10119171uts.AboutDialog;
 import com.yolandaoctl.a10119171uts.R;
 
 
+//Yolanda Octaviane 10119171 IF5 Jumat 6 Mei 2022
 public class ProfileFragment extends Fragment {
 
     ImageView Instagram, Whatsapp, Telegram, Gmail, Linkedin, Maps;
-    TextView Phone, About;
+    TextView  Abouts;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -33,8 +35,7 @@ public class ProfileFragment extends Fragment {
         Gmail = root.findViewById(R.id.gmail);
         Linkedin = root.findViewById(R.id.linkedin);
         Maps = root.findViewById(R.id.maps);
-        Phone = root.findViewById(R.id.phone);
-        About = root.findViewById(R.id.about);
+        Abouts = root.findViewById(R.id.about);
 
         Instagram.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,8 +103,13 @@ public class ProfileFragment extends Fragment {
             }
         });
 
-        Phone.setText("087832654450");
-        Linkify.addLinks(Phone, Linkify.PHONE_NUMBERS);
+        Abouts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AboutDialog Aboutdialog = new AboutDialog();
+                Aboutdialog.show(getFragmentManager(),"AboutDialog Apps");
+            }
+        });
 
         return root;
     }

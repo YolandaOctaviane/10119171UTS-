@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@drawable/splash_image"
         android:label="Viane Apps"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/splash_image"
         android:supportsRtl="true"
         android:theme="@style/Theme.10119171UTS" >
         <activity

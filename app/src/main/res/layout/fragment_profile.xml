@@ -72,12 +72,11 @@
                     <TextView
                         android:layout_width="228dp"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="start"
-                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
                         android:gravity="center"
                         android:text="About Me"
-                        android:textSize="16sp"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
 
                     <View
                         android:layout_width="match_parent"
@@ -87,30 +86,18 @@
                         android:layout_marginBottom="15dp"
                         android:background="@color/Kournikova" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="137dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:background="@drawable/border2"
+                    <TextView
+                        android:layout_width="213dp"
+                        android:layout_height="126dp"
+                        android:layout_marginBottom="10dp"
                         android:gravity="center"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="213dp"
-                            android:layout_height="126dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginRight="50dp"
-                            android:layout_marginBottom="10dp"
-                            android:text="@string/nama_desc"
-                            android:textColor="@color/Silversand" />
-                    </LinearLayout>
+                        android:text="@string/nama_desc"
+                        android:textColor="@color/Silversand" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="36dp"
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="20sp"
                     android:orientation="horizontal">
@@ -134,7 +121,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="267dp"
+                    android:layout_width="300dp"
                     android:layout_height="37dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5sp"
@@ -159,7 +146,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="267dp"
+                    android:layout_width="300dp"
                     android:layout_height="37dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5sp"
@@ -184,7 +171,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="267dp"
+                    android:layout_width="300dp"
                     android:layout_height="37dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5sp"
@@ -209,7 +196,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="267dp"
+                    android:layout_width="300dp"
                     android:layout_height="37dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5sp"

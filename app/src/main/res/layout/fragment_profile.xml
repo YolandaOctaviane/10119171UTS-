@@ -14,13 +14,15 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="42dp"
             android:layout_marginRight="42dp"
-            android:layout_centerVertical="true">
+            android:background="@drawable/border1"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="93dp"
@@ -28,15 +30,16 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/yolandaa" />
+
             <TextView
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Yolanda Octaviane"
                 android:layout_gravity="center"
-                android:textColor="@color/white"
-                android:textSize="24sp"
-                android:fontFamily="@font/nunito_bold" />
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Yolanda Octaviane"
+                android:textColor="@color/Silversand"
+                android:textSize="24sp" />
         </LinearLayout>
     </RelativeLayout>
 
@@ -45,12 +48,13 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:background="@drawable/border1"
         android:elevation="36dp">
+
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -59,15 +63,184 @@
                 android:layout_marginRight="42dp"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="@font/nunito_bold"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
                     android:gravity="center"
-                    android:text="Deskripsi diri"
-                    android:textColor="@color/white"
-                    android:textSize="20sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="228dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="About Me"
+                        android:textColor="@color/white" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@color/Kournikova" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border2"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="50dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/nama_desc"
+                            android:textColor="@color/Silversand" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_horizontal"
+                        android:text="Hobby    : "
+                        android:textColor="@color/Kournikova"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="197dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="fill_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/Hobby"
+                        android:textColor="@color/Silversand"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="267dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_horizontal"
+                        android:text="Makes   : "
+                        android:textColor="@color/Kournikova"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="197dp"
+                        android:layout_height="31dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="7dp"
+                        android:text="All kinds of noodles "
+                        android:textColor="@color/Silversand"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="267dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_horizontal"
+                        android:text="Mikes    : "
+                        android:textColor="@color/Kournikova"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="197dp"
+                        android:layout_height="31dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:text="Dragon fruit juice"
+                        android:textColor="@color/Silversand"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="267dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_horizontal"
+                        android:text="Interest : "
+                        android:textColor="@color/Kournikova"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="197dp"
+                        android:layout_height="31dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:text="Game Development"
+                        android:textColor="@color/Silversand"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="267dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="52dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_horizontal"
+                        android:text="Future Goals"
+                        android:textColor="@color/Kournikova"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="16dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text=":"
+                        android:textAlignment="center"
+                        android:textColor="@color/Kournikova"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="193dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Game Development"
+                        android:textColor="@color/Silversand"
+                        android:textSize="12sp" />
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -77,7 +250,7 @@
                     android:gravity="center"
                     android:text="Contact"
                     android:textColor="@color/white"
-                    android:textSize="20sp" />
+                    android:textSize="16sp" />
 
                 <View
                     android:layout_width="match_parent"
@@ -85,7 +258,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="15dp"
-                    android:background="@color/white" />
+                    android:background="@color/Kournikova" />
 
                 //sosial media
 
@@ -188,7 +361,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="15dp"
-                    android:background="@color/white" />
+                    android:background="@color/Kournikova" />
 
                 <TextView
                     android:id="@+id/phone"
@@ -199,7 +372,7 @@
                     android:drawableLeft="@drawable/ic_phone"
                     android:drawablePadding="10dp"
                     android:padding="15dp"
-                    android:text="phone"
+                    android:text="087832654450"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 

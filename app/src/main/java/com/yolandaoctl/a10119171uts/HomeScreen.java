@@ -27,6 +27,7 @@ public class HomeScreen extends AppCompatActivity {
      binding = ActivityHomeBinding.inflate(getLayoutInflater());
      setContentView(binding.getRoot());
 
+
         setSupportActionBar(binding.appBarHomeScreen.toolbar);
 
         DrawerLayout drawer = binding.drawerLayout;

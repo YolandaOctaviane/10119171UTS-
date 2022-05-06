@@ -50,7 +50,7 @@ public class ProfileFragment extends Fragment {
 
         Whatsapp.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent whatsapp = new Intent();
                 whatsapp.setAction(Intent.ACTION_VIEW);
                 whatsapp.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -61,7 +61,7 @@ public class ProfileFragment extends Fragment {
 
         Telegram.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent telegram = new Intent();
                 telegram.setAction(Intent.ACTION_VIEW);
                 telegram.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -72,7 +72,7 @@ public class ProfileFragment extends Fragment {
 
         Gmail.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent gmail = new Intent();
                 gmail.setAction(Intent.ACTION_VIEW);
                 gmail.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -83,7 +83,7 @@ public class ProfileFragment extends Fragment {
 
         Linkedin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent linkedin = new Intent();
                 linkedin.setAction(Intent.ACTION_VIEW);
                 linkedin.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -94,7 +94,7 @@ public class ProfileFragment extends Fragment {
 
         Maps.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent map = new Intent();
                 map.setAction(Intent.ACTION_VIEW);
                 map.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -105,7 +105,7 @@ public class ProfileFragment extends Fragment {
 
         Abouts.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 AboutDialog Aboutdialog = new AboutDialog();
                 Aboutdialog.show(getFragmentManager(),"AboutDialog Apps");
             }

@@ -4,15 +4,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
-
 import com.yolandaoctl.a10119171uts.R;
-import com.yolandaoctl.a10119171uts.databinding.FragmentGalleryBinding;
+
 
 import java.util.ArrayList;
 
@@ -31,7 +27,7 @@ public class GalleryFragment extends Fragment {
         View root =inflater.inflate(R.layout.fragment_gallery, container, false);
 
         recyclerViewGallery = root.findViewById(R.id.view_gallery);
-        manager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL); // image staggred set vertical
+        manager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
         recyclerViewGallery.setLayoutManager(manager);
 
         galleryModel = new ArrayList<>();

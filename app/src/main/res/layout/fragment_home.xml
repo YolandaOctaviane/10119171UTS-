@@ -21,281 +21,272 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_gravity="center"
-                    android:background="@drawable/ic_baseline_person_24" />
-
-
-                <TextView
-                    android:id="@+id/text_home"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_gravity="center"
-                    android:text="@string/profile"
-                    android:textAlignment="center"
-                    android:textAllCaps="true"
-                    android:textColor="@color/Silversand"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:id="@+id/text_profile"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="8dp"
-                android:text="@string/nama"
-                android:textAlignment="center"
-                android:textColor="@color/Silversand"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/foto_profilr"
-                android:layout_width="wrap_content"
-                android:layout_height="205dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginRight="70dp"
-                android:src="@drawable/foto_yolan"/>
+                <ImageView
+                    android:id="@+id/foto_profilr"
+                    android:layout_width="285dp"
+                    android:layout_height="352dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="70dp"
+                    android:src="@drawable/fotoo" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:background="@drawable/border1"
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="About Me"
-                    android:textColor="@color/Silversand"
-                    android:layout_gravity="start"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/border2"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="50dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="@string/nama_desc"
-                    android:textColor="@color/Silversand"/>
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@color/Kournikova" />
-
-                <LinearLayout
-                    android:layout_width="282dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:gravity="center"
+                        android:orientation="vertical">
 
-                        <ImageView
+                        <TextView
+                            android:id="@+id/text_profile"
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/ic_baseline_catching_pokemon_24" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="Interest"
-                            android:textAlignment="center"
-                            android:textAllCaps="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="8dp"
+                            android:fontFamily="@font/roboto_blackitalic"
+                            android:text="@string/nama"
                             android:textColor="@color/Silversand"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
+                            android:textSize="40sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="110dp"
+                            android:background="@color/Sunflower" />
+
                     </LinearLayout>
 
+
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="36dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="20sp"
-                        android:orientation="horizontal">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="fill_horizontal"
-                            android:text="Hobby    : "
-                            android:textColor="@color/Kournikova"
-                            android:textSize="16sp" />
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="50dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/nama_desc"
+                            android:textColor="@color/Silversand" />
+                    </LinearLayout>
 
-                        <TextView
-                            android:layout_width="197dp"
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/Kournikova" />
+
+                    <LinearLayout
+                        android:layout_width="324dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_blackitalic"
+                                android:text="Interest"
+                                android:textAllCaps="true"
+                                android:textColor="@color/Silversand"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="36dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20sp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="fill_horizontal"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="Hobby    : "
+                                android:textColor="@color/Kournikova"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="197dp"
+                                android:layout_height="37dp"
+                                android:layout_gravity="fill_horizontal"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/Hobby"
+                                android:textColor="@color/Silversand"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="267dp"
                             android:layout_height="37dp"
-                            android:layout_gravity="fill_horizontal"
-                            android:layout_marginLeft="5dp"
-                            android:text="@string/Hobby"
-                            android:textColor="@color/Silversand"
-                            android:textSize="12sp" />
-                    </LinearLayout>
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5sp"
+                            android:orientation="horizontal">
 
-                    <LinearLayout
-                        android:layout_width="267dp"
-                        android:layout_height="37dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="5sp"
-                        android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="fill_horizontal"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="Makes   : "
+                                android:textColor="@color/Kournikova"
+                                android:textSize="16sp" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="fill_horizontal"
-                            android:text="Makes   : "
-                            android:textColor="@color/Kournikova"
-                            android:textSize="16sp" />
+                            <TextView
+                                android:layout_width="197dp"
+                                android:layout_height="31dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="7dp"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="All kinds of noodles "
+                                android:textColor="@color/Silversand"
+                                android:textSize="12sp" />
+                        </LinearLayout>
 
-                        <TextView
-                            android:layout_width="197dp"
-                            android:layout_height="31dp"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="7dp"
-                            android:text="All kinds of noodles "
-                            android:textColor="@color/Silversand"
-                            android:textSize="12sp" />
-                    </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="267dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5sp"
+                            android:orientation="horizontal">
 
-                    <LinearLayout
-                        android:layout_width="267dp"
-                        android:layout_height="37dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="5sp"
-                        android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="65dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="fill_horizontal"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="Mikes    : "
+                                android:textColor="@color/Kournikova"
+                                android:textSize="16sp" />
 
-                        <TextView
-                            android:layout_width="65dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="fill_horizontal"
-                            android:text="Mikes    : "
-                            android:textColor="@color/Kournikova"
-                            android:textSize="16sp" />
+                            <TextView
+                                android:layout_width="197dp"
+                                android:layout_height="31dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="Dragon fruit juice"
+                                android:textColor="@color/Silversand"
+                                android:textSize="12sp" />
+                        </LinearLayout>
 
-                        <TextView
-                            android:layout_width="197dp"
-                            android:layout_height="31dp"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="5dp"
-                            android:text="Dragon fruit juice"
-                            android:textColor="@color/Silversand"
-                            android:textSize="12sp" />
-                    </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="267dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5sp"
+                            android:orientation="horizontal">
 
-                    <LinearLayout
-                        android:layout_width="267dp"
-                        android:layout_height="37dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="5sp"
-                        android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="65dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="fill_horizontal"
+                                android:text="Interest : "
+                                android:textColor="@color/Kournikova"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/roboto_medium"/>
 
-                        <TextView
-                            android:layout_width="65dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="fill_horizontal"
-                            android:text="Interest : "
-                            android:textColor="@color/Kournikova"
-                            android:textSize="16sp" />
+                            <TextView
+                                android:layout_width="197dp"
+                                android:layout_height="31dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:text="Game Development"
+                                android:textColor="@color/Silversand"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/roboto_medium"/>
+                        </LinearLayout>
 
-                        <TextView
-                            android:layout_width="197dp"
-                            android:layout_height="31dp"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="5dp"
-                            android:text="Game Development"
-                            android:textColor="@color/Silversand"
-                            android:textSize="12sp" />
-                    </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="267dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5sp"
+                            android:layout_marginBottom="30dp"
+                            android:orientation="horizontal">
 
-                    <LinearLayout
-                        android:layout_width="267dp"
-                        android:layout_height="37dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="5sp"
-                        android:layout_marginBottom="30dp"
-                        android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="52dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="fill_horizontal"
+                                android:text="Future Goals"
+                                android:textColor="@color/Kournikova"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/roboto_medium"/>
 
-                        <TextView
-                            android:layout_width="52dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="fill_horizontal"
-                            android:text="Future Goals"
-                            android:textColor="@color/Kournikova"
-                            android:textSize="16sp" />
+                            <TextView
+                                android:layout_width="16dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text=":"
+                                android:textAlignment="center"
+                                android:textColor="@color/Kournikova"
+                                android:textSize="16sp"
+                                android:fontFamily="@font/roboto_medium"/>
 
-                        <TextView
-                            android:layout_width="16dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text=":"
-                            android:textAlignment="center"
-                            android:textColor="@color/Kournikova"
-                            android:textSize="16sp" />
-
-                        <TextView
-                            android:layout_width="193dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="2dp"
-                            android:layout_marginTop="3dp"
-                            android:text="Game Development"
-                            android:textColor="@color/Silversand"
-                            android:textSize="12sp" />
+                            <TextView
+                                android:layout_width="193dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="3dp"
+                                android:text="Game Development"
+                                android:textColor="@color/Silversand"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/roboto_medium"/>
+                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-
         </LinearLayout>
     </RelativeLayout>
 

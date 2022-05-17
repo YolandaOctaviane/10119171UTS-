@@ -35,23 +35,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="
-This application was made to fulfill the midterm exam for mobile computing application courses"
+            android:text="@string/About"
             android:textAllCaps="true"
             android:textAlignment="center"
             android:textSize="12sp"
-            android:fontFamily="@font/nunito_bold"
+            android:fontFamily="@font/roboto_medium"
             android:textColor="@color/Silversand" />
 
         <TextView
             android:id="@+id/appversion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center"
-            android:text="Versi 1.0"
+            android:text="V.1.0"
             android:textSize="12sp"
-            android:fontFamily="@font/rubik_regular"
+            android:fontFamily="@font/roboto_blackitalic"
             android:textColor="@color/Silversand" />
     </LinearLayout>
 

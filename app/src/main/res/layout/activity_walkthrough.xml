@@ -14,8 +14,7 @@
         android:layout_height="500dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
-    </androidx.viewpager.widget.ViewPager>
+        tools:layout_editor_absoluteY="1dp"></androidx.viewpager.widget.ViewPager>
 
     <LinearLayout
         android:id="@+id/dots"

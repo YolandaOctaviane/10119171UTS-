@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:background="@color/Silversand"
+            android:background="@drawable/border4"
             android:orientation="vertical">
 
             <ImageView
@@ -36,7 +36,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/nunito_bold"
                 android:text="Yolanda Octaviane"
-                android:textColor="@color/Gunmetal"
+                android:textColor="@color/Silversand"
                 android:textSize="24sp" />
         </LinearLayout>
     </RelativeLayout>
@@ -76,7 +76,7 @@
                         android:gravity="center"
                         android:text="About Me"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="20sp" />
 
                     <View
                         android:layout_width="match_parent"
@@ -237,7 +237,7 @@
                     android:gravity="center"
                     android:text="Contact"
                     android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    android:textSize="20sp" />
 
                 <View
                     android:layout_width="match_parent"
@@ -364,7 +364,7 @@
                         android:gravity="center"
                         android:text="Find Me"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:textSize="20sp" />
 
                     <View
                         android:layout_width="match_parent"

@@ -34,4 +34,5 @@
 
     <string name="title_activity">Daily Activity</string>
     <string name="title_friends">My Friends</string>
+    <string name="About">This application was made to fulfill the midterm exam for mobile computing application courses</string>
 </resources>
